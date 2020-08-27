@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/favourite"
+        android:title="Favourite" />
+
+    <item
+        android:id="@+id/shopping"
+        android:title="Shopping">
+        <menu>
+            <item
+                android:id="@+id/pay_now"
+                android:title="Pay Now" />
+            <item
+                android:id="@+id/pay_later"
+                android:title="Pay Later" />
+        </menu>
+    </item>
+
+</menu>
